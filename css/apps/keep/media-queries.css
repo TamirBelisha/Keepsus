@@ -1,0 +1,60 @@
+@media (max-width: 1420px) {
+    .note-cards-container {
+        column-count: 4;
+    }
+}
+@media (max-width: 1160px) {
+    .note-cards-container {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 860px) {
+    .note-cards-container{
+        column-count: 2;
+    }
+    .home-page {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 580px) {
+    .note-cards-container{
+        column-count: unset;
+    }
+    .note-card {
+        width: 80vw;
+    }
+    .note-card {
+        margin: 1rem auto;
+    }
+    .homepage-nav {
+        margin-bottom: 30px;
+        flex-direction: column;
+        height: 30vh;
+        width: 70vw;
+    }
+    .app-header {
+        flex-direction: column;
+        height: 90px;
+    }
+    .nav-bar {
+        margin-block-end: 5px;
+    }
+    .main-content {
+        min-height: calc(100vh - 150px);
+    }
+}
+
+@media (max-width: 460px) {
+    .add-note-container {
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-evenly;
+    }
+}
+@media (max-height: 840px) {
+    .horse-logo-div {
+        top: 20vh;
+    }
+}

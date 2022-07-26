@@ -1,0 +1,18 @@
+:root {
+    --clr1: #0c3a46;
+    --clr2: #55C1FF;
+    --clr3: #5887FF;
+    --clr4: #715AFF;
+    --clr5: #bed8db;
+    --clr6: #bed8db;
+    --clr7: #fff;
+    --clr8: rgba(242,245,245,0.8);
+    --clr9: #5f6368; /* email-preview body */
+    --clr10: gray; /* email-preview table border */
+    --clr11: rgba(255,255,255,0.3); /* google hover */
+    --clr12: #202124 ;/* compose  */
+    --clr13: #404040;/* compose header */
+    --clr14: #fafafb; /* compose button bg */
+    --clr15: #3c4043; /* compose button color*/
+    --clr16: #cfcfcf; /* compose border */
+}
